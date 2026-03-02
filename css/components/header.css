@@ -1,6 +1,18 @@
 /* header.css */
-
-/* Header structure */
+.header {
+    background-color: blueviolet;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: calc(100% - 40px);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    
+}
+    /* Header structure
 header {
     display: flex;
     align-items: center;
@@ -9,7 +21,7 @@ header {
 }
 
 /* Central and secondary navigation */
-nav ul {
+/* nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -31,7 +43,7 @@ nav ul {
 }
 
 /* small adjustments for mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -39,5 +51,5 @@ nav ul {
     nav ul {
         flex-wrap: wrap;
     }
-}
-
+} */
+ 
