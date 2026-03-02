@@ -1,7 +1,6 @@
 /* hero.css */
 .hero-section {
     background: url(../../images/banners/banner.jpg.jpg);
-    no-repeat center;
     background-size: cover;
 
     height: 500px;
