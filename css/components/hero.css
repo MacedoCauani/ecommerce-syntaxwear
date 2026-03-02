@@ -1,1 +1,6 @@
 /* hero.css */
+.hero {
+    background: url(../../images/banners/baner.jpg.jpg);
+    background: no-repeat center;
+    
+}
