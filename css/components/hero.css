@@ -1,6 +1,11 @@
 /* hero.css */
-.hero {
-    background: url(../../images/banners/baner.jpg.jpg);
-    background: no-repeat center;
-    
+.hero-section {
+    background: url(../../images/banners/banner.jpg.jpg);
+    no-repeat center;
+    background-size: cover;
+
+    height: 500px;
+    position: relative;
+
+
 }
