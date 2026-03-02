@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,41 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/components/header.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
+
 <body>
     <!-- Início do conteúdo da página -->
     <header>
-        <h1>
+        <h1 class="logo">
             <a href="/">
                 <img src="./images/logo/logo.png" alt="SyntaxWear - Tênis e Sneakers Online">
             </a>
         </h1>
+
+        <nav class="nav-center" aria-label=" Categorias Principais">
+            <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+
+        <!-- Novo menu secundário com links e ícones -->
+        <nav class="nav-right" aria-label="Acesso Rápido">
+            <ul>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#" aria-label="Minha Conta"><img src="./images/icons/user.svg" alt="Minha Conta" >
+                </a></li>
+                <li> <a href="#" aria-label="Ajuda">
+                        <img src="./images/icons/help.svg" alt="Ajuda">
+                    </a></li>
+                <li><a href="#" aria-label="Carrinho"><img src="./images/icons/cart.svg" alt="Carrinho"></a></li>
+            </ul>
+        </nav>
+
         <h1>Bem-vindo ao SyntaxWear</h1>
     </header>
 
@@ -29,4 +55,5 @@
         <p>&copy; 2026 SyntaxWear. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>

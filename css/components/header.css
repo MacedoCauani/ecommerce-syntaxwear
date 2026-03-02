@@ -1,1 +1,43 @@
 /* header.css */
+
+/* Header structure */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+/* Central and secondary navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-center a,
+.nav-secondary a {
+    text-decoration: none;
+    color: var(--text-color, #333);
+    font-weight: 500;
+}
+
+.nav-secondary li a img {
+    display: block;
+    width: 1.5rem;
+    height: auto;
+}
+
+/* small adjustments for mobile */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
+
