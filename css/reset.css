@@ -52,6 +52,15 @@ a:not([class]) {
   text-decoration-skip-ink: skip-ink;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 /* Make images easier to work with */
 img,
 picture {
