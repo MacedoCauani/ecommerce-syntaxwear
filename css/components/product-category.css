@@ -1,1 +1,28 @@
 /* product-card.css */
+.categories-section {
+    background-color: aqua;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.category-card {
+    background-color: blueviolet;
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.category-name {
+    font: 1.25rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+}
