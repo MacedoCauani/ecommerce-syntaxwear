@@ -1,28 +1,57 @@
 /* product-card.css */
 .categories-section {
-    background-color: aqua;
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 .category-card {
-    background-color: blueviolet;
-    width: 317px;
+    position: relative;
+    width: 315px;
     height: 500px;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .category-name {
-    font: 1.25rem;
-    margin-top: 10px;
+    position: absolute;
+    left: 26%;
+    top: 45%;
+    translate: -50%, -50%; /*para posicionar o botao centralizado nos cards*/
+    z-index: 2;
     text-align: center;
-    font-weight: 400;
-    color: #ffffff;
+}
+
+.casual {
+    background-image: url('../../images/products/casual.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.esporte {
+    background-image: url('../../images/products/esporte.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.moderno {
+    background-image: url('../../images/products/colorido.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.futurista {
+    background-image: url('../../images/products/futurista.jpg');
+    background-size: cover;
+    background-position: center;
 }
