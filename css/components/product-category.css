@@ -5,13 +5,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .category-card {
     position: relative;
-    width: 315px;
-    height: 500px;
+    width: 310px;
+    height: 480px;
     border-radius: 15px;
     overflow: hidden;
 }
