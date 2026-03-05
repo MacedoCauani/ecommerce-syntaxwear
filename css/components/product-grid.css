@@ -1,24 +1,61 @@
 /* product-grid.css */
-.top1 {
-    grid-area: top1;
+.spotlight {
+    grid-area: spotlight;
+    background-image: url(../../images/products/banner.grid.jpg);
+    /* width: 665px;
+    height: 500px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.top2 {
-    grid-area: top2;
+.sneaker-purple {
+    grid-area: sneaker-purple;
+     background-image: url(../../images/products/tênis\ roxo\ e\ verde.grid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;;
 }
 
-.midL {
-    grid-area: midL;
+.model {
+    grid-area: model;
+     background-image: url(../../images/);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.midR {
-    grid-area: midR;
+.sneaker-color {
+    grid-area: sneaker-color;
+    background-image: url(../../images/products/banner.grid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bottomL {
-    grid-area: bottomL;
+.sneaker-white {
+    grid-area: sneaker-white;
+     background-image: url(../../images/products/banner.grid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bottomR {
-    grid-area: bottomR;
+.sneaker-silver {
+    grid-area: sneaker-silver;
+      background-image: url(../../images/products/banner.grid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "spotlight spotlight sneaker-purple sneaker-purple"
+        "spotlight spotlight model sneaker-color"
+        " sneaker-white sneaker-white model sneaker-silver";
+    gap: 30px;
 }
