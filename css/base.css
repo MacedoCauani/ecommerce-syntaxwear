@@ -5,11 +5,8 @@ body{
 }
 
 main{
-<<<<<<< HEAD
     padding: 2.5rem 2.5rem 0;
-=======
     padding: 2.5rem 0 2.5rem;
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
     max-width: 1360px;
     margin: 0 auto;
 }
