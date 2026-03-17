@@ -1,17 +1,26 @@
 /* base.css */
-body {
+body{
     font-family: var(--fonte-principal);
     color: #333333;
 }
 
 main{
-    padding: 2.5rem 2.5rem 0 ;
-    max-width: 1360px; 
+<<<<<<< HEAD
+    padding: 2.5rem 2.5rem 0;
+=======
+    padding: 2.5rem 0 2.5rem;
+>>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
+    max-width: 1360px;
     margin: 0 auto;
 }
 
+@media (max-width:1280px) {
+	main{
+		padding: 0.625rem;
+	}
+}
 
-.btn {
+.btn{
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
@@ -19,23 +28,22 @@ main{
     color: #ffffff;
     font-weight: 400;
     padding: 10px 20px;
-    transition: background-color 0.3s, border 0.3s;
+    transition: backgound-color 0.3s, border 0.3s;
 }
 
-.btn-outline {
+.btn-outline{
     background-color: transparent;
     border: 2px solid #ffffff;
     line-height: 23px;
 }
 
-.btn-filled {
+.btn-filled{
     background-color: #ffffff;
-    color: rgba(99, 41, 162, 1)
-    
+    color: #6329A2;
 }
 
-.btn:hover {
-    background-color: #6329a2;
+.btn:hover{
+    background-color: #6329A2;
     color: #ffffff;
-    border-color: #6329a2;
+    border-color: #6329A2;
 }
